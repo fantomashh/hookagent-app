@@ -1,16 +1,20 @@
-import './globals.css';
-import { ReactNode } from 'react';
+// app/layout.tsx
+import './globals.css'
+import type { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'HookAgent',
   description: 'GPT-powered hook analyzer',
-};
+}
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      <head />
       <body>{children}</body>
     </html>
-  );
+  )
 }
