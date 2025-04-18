@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "HookAgent",
-  description: "GPT-powered hook analyzer",
+  title: 'HookAgent',
+  description: 'GPT-powered hook analyzer',
 };
 
 export default function RootLayout({
